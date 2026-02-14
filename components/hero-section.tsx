@@ -37,7 +37,7 @@ export function HeroSection() {
       <div className="absolute inset-0 pointer-events-none z-0">
         <div className="absolute top-20 left-10 w-24 h-32 rotate-[-12deg] opacity-30 blur-[1px] animate-float">
           <Image
-            src="/assets/date/kopken_titis_1.jpg"
+            src={"/assets/date/kopken_titis_1.jpg"}
             alt="damar"
             fill
             className="object-cover rounded-xl"
@@ -46,7 +46,7 @@ export function HeroSection() {
 
         <div className="absolute top-40 right-16 w-20 h-28 rotate-[15deg] opacity-25 animate-float-slow">
           <Image
-            src="/assets/date/kopken_titis_3.jpg"
+            src={"/assets/date/kopken_titis_3.jpg"}
             alt="sachi"
             fill
             className="object-cover rounded-xl"
@@ -55,7 +55,7 @@ export function HeroSection() {
 
         <div className="absolute bottom-16 left-1/4 w-24 h-32 rotate-[8deg] opacity-30 blur-[1px] animate-float">
           <Image
-            src="/assets/date/kopken_stair.jpg"
+            src={"/assets/date/kopken_stair.jpg"}
             alt="memory"
             fill
             className="object-cover rounded-xl"
@@ -64,7 +64,7 @@ export function HeroSection() {
 
         <div className="absolute bottom-24 right-1/4 w-20 h-28 rotate-[-10deg] opacity-25 animate-float-slow">
           <Image
-            src="/assets/date/kopken_titis_2.jpg"
+            src={"/assets/date/kopken_titis_2.jpg"}
             alt="damar"
             fill
             className="object-cover rounded-xl"
@@ -92,7 +92,7 @@ export function HeroSection() {
             {/* Left Page */}
             <div className="relative w-[220px] h-[260px] bg-white rounded-l-2xl shadow-2xl overflow-hidden rotate-[-3deg] origin-right">
               <Image
-                src="/assets/date/damar_kopken_1.jpg"
+                src={"/assets/date/damar_kopken_1.jpg"}
                 alt="Damar"
                 fill
                 className="object-cover"
@@ -109,7 +109,7 @@ export function HeroSection() {
             {/* Right Page */}
             <div className="relative w-[220px] h-[260px] bg-white rounded-r-2xl shadow-2xl overflow-hidden rotate-[3deg] origin-left">
               <Image
-                src="/assets/date/sachi_kopken_1.jpg"
+                src={"/assets/date/sachi_kopken_1.jpg"}
                 alt="Sachi"
                 fill
                 className="object-cover"
