@@ -90,7 +90,7 @@ export function HeroSection() {
         <div className="flex justify-center items-center mb-8">
           <div className="relative flex items-center">
             {/* Left Page */}
-            <div className="relative w-[220px] h-[260px] bg-white rounded-l-2xl shadow-2xl overflow-hidden rotate-[-3deg] origin-right">
+            <div className="relative w-[170px] h-[200px] md:w-[220px] md:h-[260px] bg-white rounded-l-2xl shadow-2xl overflow-hidden rotate-[-3deg] origin-right">
               <Image
                 src={"/assets/date/damar_kopken_1.jpg"}
                 alt="Damar"
@@ -107,7 +107,7 @@ export function HeroSection() {
             </div>
 
             {/* Right Page */}
-            <div className="relative w-[220px] h-[260px] bg-white rounded-r-2xl shadow-2xl overflow-hidden rotate-[3deg] origin-left">
+            <div className="relative w-[170px] h-[200px] md:w-[220px] md:h-[260px] bg-white rounded-r-2xl shadow-2xl overflow-hidden rotate-[3deg] origin-left">
               <Image
                 src={"/assets/date/sachi_kopken_1.jpg"}
                 alt="Sachi"
@@ -119,17 +119,17 @@ export function HeroSection() {
           </div>
         </div>
 
-        <h1 className="text-6xl md:text-7xl font-bold text-balance leading-tight mb-6">
+        <h1 className="text-4xl md:text-5xl font-bold text-balance leading-tight mb-6">
           <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Valentine Part 1
           </span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-foreground/80 text-balance mb-4 leading-relaxed">
+        <p className="text-lg md:text-xl text-foreground/80 text-balance mb-4 leading-relaxed">
           Omagattoooo, llezzz goo hari valentine pertama kita yank :3
         </p>
 
-        <p className="text-lg text-muted-foreground text-balance mb-10 leading-relaxed">
+        <p className="text-md text-muted-foreground text-balance mb-10 leading-relaxed">
           Maaf semua pesan untuk valentine kali ini, aku buat lewat web ajah soalnya tulisan aku burik. Dan maaf kalau web yang aku buat ini tidak sesuai ekspetasi kamu. Tapi aku mohon kamu baca dan lihat sampai terakhir yah :)
         </p>  
 
